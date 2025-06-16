@@ -21,10 +21,10 @@
 
         <nav class="flex justify-between gap-10">
           <ul class="flex flex-row gap-10 font-medium text-[1.2rem] items-center text-[1rem] max-[1238px]:hidden">
-            <li class="hover:text-[#F54748] font-medium">Por que Pizzateria?</li>
-            <li class="hover:text-[#F54748] font-medium">Ofertas</li>
-            <li class="hover:text-[#F54748] font-medium">Seleções</li>
-            <li class="hover:text-[#F54748] font-medium">Contato</li>
+            <li class="hover:text-[#F54748] font-medium"><a href="Home.html">Por que Pizzateria?</a></li>
+            <li class="hover:text-[#F54748] font-medium"><a href="Ofertas.html">Ofertas</a></li>
+            <li class="hover:text-[#F54748] font-medium"><a href="Selection.html">Seleções</a></li>
+            <li class="hover:text-[#F54748] font-medium"><a href="Contato.html">Contato</a></li>
           </ul>
 
           <div class="flex flex-row font-extralight items-center gap-5">
@@ -47,25 +47,252 @@
 
                  <div class="flex flex-col items-center w-[70%] gap-10">
                     <p class="text-white text-[1.25rem] font-medium text-center">Our missions is to satify your appeetite with delectable dihes, deliverd swifky and at no extra cost</p>
-                    <button class="bg-[#F54748] py-5 px-6 rounded-4xl text-white font-medium">Get Started</button>
+                    <button class="bg-[#F54748] py-3 px-6 rounded-4xl text-white font-medium">Get Started</button>
                  </div>
         </main>
     </section>
 
     <section class="flex justify-center">
         <main class="flex flex-col items-center">
-            <h2 class="text-[#F54748] font-medium">Our Offerings</h2>
-            <h3 class="text-[2rem] font-medium">Your Preferred Food Delivery Companion</h3>
+            <div class="flex items-center flex-col py-20 gap-3 w-[28rem]">
+            <h2 class="text-[#F54748] font-bold uppercase tracking-widest">Our Offerings</h2>
+            <h3 class="text-[2rem] font-bold text-center">Your Preferred Food Delivery Companion</h3>
+        </div>
 
-            <div>
-                <div class="shadow-2xs w-[10rem] border-1">
-                    <img src="" alt="entraga-icon">
-                    <h2 class="font-bold">Convenient Ordering</h2>
-                    <p class="text-[#787878]">ordering food required just a few simples steps</p>
+            <div class="flex flex-row justify-center gap-10 flex-wrap pb-3">
+
+                <div class="shadow-2xs w-[21.1rem] h-[25.8rem] border-1 rounded-3xl overflow-hidden flex flex-col relative items-center hover:border-[#F54748] border-3 duration-200 ease">
+                    <img src="assets/Icons/pedido-icon.png" alt="entraga-icon" width="80%" class="bottom-10 absolute">
+                    <div class="absolute bottom-0 pb-6">
+                    <h2 class="font-bold text-center py-4 text-[1.5rem]">Convenient Ordering</h2>
+                    <p class="text-[#787878] text-center px-7 text-[1.1rem] font-medium">ordering food required just a few simples steps</p>
+                  </div>
                 </div>
+                <div class="shadow-2xs w-[21.1rem] h-[25.8rem] border-1 rounded-3xl overflow-hidden flex flex-col relative items-center hover:border-[#F54748] border-3 duration-200 ease">
+                  <img src="assets/Icons/entregando-icon.png" alt="entraga-icon" width="80%" class="bottom-10 absolute">
+                  <div class="absolute bottom-0 pb-6">
+                  <h2 class="font-bold text-center py-4 text-[1.5rem]">Quickest Delivery</h2>
+                  <p class="text-[#787878] text-center px-7 text-[1.1rem] font-medium">Consistently Timely Delivery, Even Faster</p>
+                </div>
+              </div>
+              <div class="shadow-2xs w-[21.1rem] h-[25.8rem] border-1 rounded-3xl overflow-hidden flex flex-col relative items-center hover:border-[#F54748] border-3 duration-200 ease">
+                <img src="assets/Icons/entrega-icon.png" alt="entraga-icon" width="80%" class="bottom-30 absolute">
+                <div class="absolute bottom-0 pb-6">
+                <h2 class="font-bold text-center py-4 text-[1.5rem]">Superior Quality</h2>
+                <p class="text-[#787878] text-center px-7 text-[1.1rem] font-medium">For us, quality is paramount, not just speed</p>
+              </div>
+            </div>
                 
             </div>
         </main>
     </section>
+
+    <section class="flex justify-center pb-40">
+        <main class="flex flex-col items-center w-[80%]">
+            <div class="flex items-center flex-col py-20 gap-3 w-[25rem]">
+                <h2 class="text-[#F54748] font-bold uppercase tracking-widest">Our Selection</h2>
+                <h3 class="text-[2rem] font-bold text-center">A Menu that will Always Capture Your heart</h3>
+            </div>
+
+            <div class="flex flex-col justify-center w-[100%]">
+            <ul class="flex flex-row gap-8 w-full flex-wrap max-[491px]:w-[30rem] items-center">
+
+                <li class="cursor-pointer w-45 h-15 flex items-center px-1 rounded-4xl gap-3 px-4 hover:bg-[#F54748] duration-200 ease shadow-[4px_4px_10px_rgba(0,0,0,0.2)]">
+                    <img src="assets/Icons/hamburger-icon.png" alt="" width="28%" height="28%" class="rounded-4xl p-1 bg-white"><p class="font-medium">Burguer</p>
+                </li>
+
+                <li class="cursor-pointer w-45 h-15 flex items-center px-1 rounded-4xl gap-3 px-4 hover:bg-[#F54748] duration-200 ease shadow-[4px_4px_10px_rgba(0,0,0,0.2)]">
+                        <img src="assets/Icons/pizza-icon.png" alt="" width="28%" height="28%" class="rounded-4xl p-1 bg-white"><p class="font-medium">Pizza</p>
+                </li>
+
+                <li class="cursor-pointer w-45 h-15 flex items-center px-1 rounded-4xl gap-3 px-4 hover:bg-[#F54748] duration-200 ease shadow-[4px_4px_10px_rgba(0,0,0,0.2)]">
+                            <img src="assets/Icons/cup-icon.png" alt="" width="28%" height="28%" class="rounded-4xl p-1 bg-white"><p class="font-medium">Cup Cake</p>
+                </li>
+
+                <li class="cursor-pointer w-45 h-15 flex items-center px-1 rounded-4xl gap-3 px-4 hover:bg-[#F54748] duration-200 ease shadow-[4px_4px_10px_rgba(0,0,0,0.2)]">
+                                <img src="assets/Icons/ramen-icon.png" alt="" width="28%" height="28%" class="rounded-4xl p-1 bg-white"><p class="font-medium">Ramen</p>
+                </li>
+
+                <i class="fa-solid fa-angle-right py-4 px-5 rounded-4xl bg-[#F54748] text-white cursor-pointer"></i>
+            </ul>
+<!-- ------------------------------ -->
+ <div class="flex flex-row gap-10 items-center pt-15 flex-wrap max-[1356px]:justify-center max-[1257px]:flex-wrap">
+            <div class="flex flex-col w-[19rem] h-[30rem] relative items-center rounded-4xl truncate shadow-[4px_4px_10px_rgba(0,0,0,0.2)]">
+              <div class="bg-orange-400 h-60 flex justify-center items-center">
+                <img src="assets/pizza-promo.png" alt="">
+              </div>
+              <i class="fa-solid fa-cart-plus bg-[#F54748] p-5 rounded-4xl text-white absolute mt-53 cursor-pointer"></i>
+                 <div class="absolute bottom-0 flex flex-col items-center p-3">
+    
+                 <h3 class="text-[1.5rem] font-bold">Sausage Pizza</h3>
+                 <h4 class="text-[2.3rem] font-bold"><span class="text-[1.5rem]">$</span>7.49</h4>
+                 <div class="">
+                  <i class="fa-solid fa-star text-yellow-300"></i>
+                  <i class="fa-solid fa-star text-yellow-300"></i>
+                  <i class="fa-solid fa-star text-yellow-300"></i>
+                  <i class="fa-solid fa-star text-yellow-300"></i>
+                  <i class="fa-solid fa-star"></i>
+                 </div>
+                 <button class="bg-[#F54748] text-white w-[8.3rem] h-[2.5rem] rounded-3xl mt-6 cursor-pointer">read more</button>
+                </div>
+            </div>
+<!-- ------------------------------ -->
+<div class="flex flex-col w-[19rem] h-[30rem] relative items-center rounded-4xl truncate shadow-[4px_4px_10px_rgba(0,0,0,0.2)]">
+  <div class="bg-orange-400 h-60 flex justify-center items-center">
+    <img src="assets/pizza-promo.png" alt="">
+  </div>
+  <i class="fa-solid fa-cart-plus bg-[#F54748] p-5 rounded-4xl text-white absolute mt-53 cursor-pointer"></i>
+     <div class="absolute bottom-0 flex flex-col items-center p-3">
+
+     <h3 class="text-[1.5rem] font-bold">Sausage Pizza</h3>
+     <h4 class="text-[2.3rem] font-bold"><span class="text-[1.5rem]">$</span>7.49</h4>
+     <div class="">
+      <i class="fa-solid fa-star text-yellow-300"></i>
+      <i class="fa-solid fa-star text-yellow-300"></i>
+      <i class="fa-solid fa-star text-yellow-300"></i>
+      <i class="fa-solid fa-star text-yellow-300"></i>
+      <i class="fa-solid fa-star"></i>
+     </div>
+     <button class="bg-[#F54748] text-white w-[8.3rem] h-[2.5rem] rounded-3xl mt-6 cursor-pointer">read more</button>
+    </div>
+</div>
+<!-- ------------------------------ -->
+<div class="flex flex-col w-[19rem] h-[30rem] relative items-center rounded-4xl truncate shadow-[4px_4px_10px_rgba(0,0,0,0.2)]">
+  <div class="bg-orange-400 h-60 flex justify-center items-center">
+    <img src="assets/pizza-promo.png" alt="">
+  </div>
+  <i class="fa-solid fa-cart-plus bg-[#F54748] p-5 rounded-4xl text-white absolute mt-53 cursor-pointer"></i>
+     <div class="absolute bottom-0 flex flex-col items-center p-3">
+
+     <h3 class="text-[1.5rem] font-bold">Sausage Pizza</h3>
+     <h4 class="text-[2.3rem] font-bold"><span class="text-[1.5rem]">$</span>7.49</h4>
+     <div class="">
+      <i class="fa-solid fa-star text-yellow-300"></i>
+      <i class="fa-solid fa-star text-yellow-300"></i>
+      <i class="fa-solid fa-star text-yellow-300"></i>
+      <i class="fa-solid fa-star text-yellow-300"></i>
+      <i class="fa-solid fa-star"></i>
+     </div>
+     <button class="bg-[#F54748] text-white w-[8.3rem] h-[2.5rem] rounded-3xl mt-6 cursor-pointer">read more</button>
+    </div>
+</div>
+
+<div class="max-[1356px]:hidden cursor-pointer">
+  <i class="fa-solid fa-arrow-right text-4xl text-[#F54748]"></i>
+</div>
+
+</div>
+<!-- ------------------------------ -->
+           
+        </div>
+
+            </div>
+        </main>
+    </section>
+
+    <section class="bg-[#F54748] text-white justify-center flex">
+      <main class="flex flex-row w-[80%] justify-between py-30 items-center flex-wrap">
+        <div class="w-[55%] gap-5 flex flex-col">
+          <h3 class="text-[1.1rem] font-medium uppercase tracking-widest">Customer testimonials</h3>
+          <h2 class="text-[3rem] font-bold">What Customers Have to Say About Us</h2>
+          <p class="text-[1.25rem] font-medium">"Pizzateria is exceptional. With a wide array of delicious meals and excellent service, including remarkably fast delivery, I wholeheartedly recommend Pizzateria to you."</p>
+
+          <div class="flex flex-col gap-5 mt-8">
+
+            <div class="flex flex-row gap-4">
+              <img src="" alt="" width="60rem" height="50rem" class="bg-white rounded-4xl">
+
+              <div>
+                <h3 class="text-black font-bold">Aracelly Xaviera</h3>
+                <p>Culinary Enthusiast</p>
+              </div>
+            </div>
+
+            <div class="flex flex-row items-center gap-3">
+              <i class="fa-solid fa-star text-yellow-300"></i>
+              <i class="fa-solid fa-star text-yellow-300"></i>
+              <i class="fa-solid fa-star text-yellow-300"></i>
+              <i class="fa-solid fa-star text-yellow-300"></i>
+              <i class="fa-solid fa-star"></i>
+              <p class="font-bold text-black">4,8</p>
+            </div>
+          </div>
+
+          </div>
+
+          <img src="assets/pizza.png" alt="pizzaPromo" width="40%">
+      </main>
+
+      <img src="" alt="">
+    </section>
+
+    <section class="flex justify-center py-[8rem]">
+      <main class="w-[80%] flex flex-row pt-20 bg-[#FEF5F5] rounded-4xl justify-center gap-8 flex-wrap">
+         <div class="pb-20 flex flex-col items-start gap-2 w-[50%]">
+          <h3 class="text-[#F54748] uppercase tracking-widest font-bold">Download app</h3>
+          <h2 class="text-[3rem] font-bold">Begin Your Pizzateria Journey Now!</h2>
+          <p class="text-[#787878] text-[1.1rem]">Explore cuisine anytime, anywhere, and enjoy swift delivery of your food</p>
+          <button class="bg-[#F54748] py-3 px-6 rounded-4xl text-white font-medium mt-4">Get Started</button>
+         </div>
+
+         <img src="assets/app.png" alt="" class="w-[28%]">
+      </main>
+    </section>
+    
+    <footer class="flex justify-center py-[2rem] flex-col items-center">
+      <main class="flex flex-row w-[80%] gap-15 flex-wrap border-b-1 border-[#F54748] pb-10">
+        <!--  -->
+        <div class="flex flex-col gap-1">
+          <h3 class="font-bold text-[1.2rem] mb-3">Regarding</h3>
+          <p class="text-[#787878]">Our Story</p>
+          <p class="text-[#787878]">Attributes</p>
+          <p class="text-[#787878]">Updates</p>
+          <p class="text-[#787878]">Selection</p>
+        </div>
+        <!--  -->
+         <!--  -->
+         <div class="flex flex-col gap-1">
+          <h3 class="font-bold text-[1.2rem] mb-3">Enterprise</h3>
+          <p class="text-[#787878]">Why Pizzateria?</p>
+          <p class="text-[#787878]">Partner With Us</p>
+          <p class="text-[#787878]">FAQ</p>
+          <p class="text-[#787878]">Blog</p>
+        </div>
+        <!--  -->
+         <!--  -->
+         <div class="flex flex-col gap-1">
+          <h3 class="font-bold text-[1.2rem] mb-3">Assistance</h3>
+          <p class="text-[#787878]">Account</p>
+          <p class="text-[#787878]">Support Center</p>
+          <p class="text-[#787878]">Feedback</p>
+          <p class="text-[#787878]">Contact Us</p>
+          <p class="text-[#787878]">Accesbility</p>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="flex flex-col gap-1">
+          <h3 class="font-bold text-[1.2rem] mb-3">Get in Touch</h3>
+          <p class="text-[#787878] w-[15rem]">Have a question or feedback? We're eager to hear from you</p>
+        </div>
+        <!--  -->
+        <!--  -->
+
+        <div class="flex flex-col gap-2">
+          <div class="flex flex-row items-center">
+            <img src="assets/logo.png" alt="logo-pizzateria" class="w-20" />
+            <p class="text-[1.4rem] font-bold">Pizzateria</p>
+          </div>
+          <p class="text-[#787878] w-[24rem]">Our mission is to satisfy your hunger with tasty food, delivered quickly and at no charge</p>
+          <div class="flex flex-row gap-6">
+            <i class="fa-brands fa-instagram text-[#F54748] text-[1.8rem] cursor-pointer"></i>
+            <i class="fa-brands fa-facebook text-[#F54748] text-[1.7rem] cursor-pointer"></i>
+            <i class="fa-brands fa-x-twitter text-[#F54748] text-[1.8rem] cursor-pointer"></i>
+          </div>
+        </div>
+
+        <!--  -->
+      </main>
+      <p class="text-[#787878] mt-3">2019 Fudo inc. All rights reserved</p>
+    </footer>
   </body>
 </html>
